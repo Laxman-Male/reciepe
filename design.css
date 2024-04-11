@@ -1,0 +1,113 @@
+body{
+    background-color:  hsl(30, 54%, 90%);
+    display: flex;
+     justify-content: center;
+   }
+   #main_outer{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background-color: white;
+       flex-direction: column;
+       width:478px ;
+       border-radius: 15px;
+       padding: 22px;
+       margin-top: 25px;
+   }
+   #main_outer div img{
+        border-radius: 11px;
+       width: 470px;
+       height: 200px;
+   }
+   #main_outer h1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight: 700;
+       color: hsl(24, 5%, 18%);
+       align-self: flex-start;
+       margin: 10px;
+       font-size: 26px;
+   }
+   #p_1st{
+       font-size: 13px;
+       margin: 6px;
+   }
+   #pink_div{
+       background-color:hsl(330, 100%, 98%) ;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       width: 465px;
+       color: hsl(24, 5%, 18%);
+       margin-top: 7px;
+     }
+   #pink_div h5{
+       color: hsl(332, 51%, 32%);
+   }
+   #pink_div ul{
+       font-size: 12px;
+       line-height: 1.5rem;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       color: rgb(54, 53, 53)
+    }
+    .sub_head p{
+       font-size: 18px;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       line-height: 1.5rem;
+        color:hsl(14, 45%, 36%) ;
+       font-weight: 500;
+       margin-top: 12px;
+       margin-bottom: 12px ;
+       
+   }
+   .sub_head  {
+       color: hsl(24, 5%, 18%);
+         font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: 12px;
+        align-self: flex-start;
+       margin-top:0px;
+    }
+    .sub_head ul{
+       line-height: 1.5rem;
+         padding-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: rgb(98, 96, 96);
+     }
+    .hr{
+       color: red;
+       border: 1px solid rgb(217, 214, 214);
+       width: 460px;
+    }
+    .sub_head ol{
+       line-height: 2rem;
+       color: rgb(98, 96, 96);
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size:11px;
+    }
+    #nutri{
+       font-size: 12px;
+       color: rgb(98, 96, 96);
+    }
+    .sub_head #list{
+       border: 2px solid red;
+    
+    }
+    .last_table tr{
+       font-size: 12px;
+     }
+    .last_table td{
+       width: 222px;
+      height: 23px;
+     }
+    #name{
+      color:rgb(98, 96, 96) ;
+      font-size: 13px;
+    }
+    #quantity{
+      color:hsl(332, 51%, 32%) ;
+      font-weight: 550;
+    }
+   
+    /* @media (max-width: 500px){
+      body{
+          background-color: red;
+      }
+   } */
